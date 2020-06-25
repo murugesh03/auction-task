@@ -1,0 +1,17 @@
+@import "../../../../utilites/variables.scss";
+
+.add-fee {
+  background-color: $violet !important;
+  color: white !important;
+  border: none !important;
+}
+.abandon {
+  background-color: transparent !important;
+  color: $violet !important;
+  border: 1px solid $violet !important;
+}
+.block {
+  background-color: transparent !important;
+  color: orange !important;
+  border: 1px solid orange !important;
+}

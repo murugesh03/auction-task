@@ -1,0 +1,18 @@
+.add-fee {
+  background-color: #8f00ff !important;
+  color: white !important;
+  border: none !important;
+}
+
+.abandon {
+  background-color: transparent !important;
+  color: #8f00ff !important;
+  border: 1px solid #8f00ff !important;
+}
+
+.block {
+  background-color: transparent !important;
+  color: orange !important;
+  border: 1px solid orange !important;
+}
+/*# sourceMappingURL=Buttons.css.map */

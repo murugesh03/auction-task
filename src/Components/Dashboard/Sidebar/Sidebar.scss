@@ -1,0 +1,15 @@
+@import "../../../utilites/variables.scss";
+
+.sidebar {
+  width: 17%;
+  height: auto;
+  background-color: #1e1e1e;
+}
+.icon-text {
+  margin: 0;
+}
+.job-button {
+  background-color: transparent;
+  border: 1px solid $orange;
+  color: $orange;
+}

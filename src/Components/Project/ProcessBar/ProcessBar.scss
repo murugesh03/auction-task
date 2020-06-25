@@ -1,0 +1,12 @@
+.processbar-dash {
+  border-top: 1px dashed red;
+}
+.seller {
+  & img {
+    width: 10% !important;
+  }
+}
+.seller,
+.buyer {
+  text-align: center;
+}

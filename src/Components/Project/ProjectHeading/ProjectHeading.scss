@@ -1,0 +1,10 @@
+@import "../../../utilites/variables.scss";
+
+.heading-underline:after {
+  border-bottom: 1px solid $violet;
+  display: block;
+  margin: 0 auto;
+  width: 13%;
+  content: "";
+  padding: 0.4rem 0;
+}

@@ -1,0 +1,27 @@
+@import "../../../utilites/variables.scss";
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tabs {
+  background-color: #efefef;
+}
+.nav-link.active {
+  border-top: 3px solid $lightGreen !important;
+  color: $lightGreen !important;
+  background-color: transparent !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0 !important;
+}
+.nav-tabs,
+.nav-links {
+  border: none !important;
+}
+a {
+  color: black !important;
+  padding: 0.7rem 2rem !important;
+}

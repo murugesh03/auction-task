@@ -1,0 +1,17 @@
+.navBar {
+  background-color: #f3f3f3;
+}
+
+.navBar-menu > * {
+  color: black !important;
+}
+
+.nav-links {
+  padding: 0 0.5rem !important;
+}
+
+.nav-links.active {
+  border-top: none !important;
+  color: none !important;
+}
+/*# sourceMappingURL=NavBar.css.map */

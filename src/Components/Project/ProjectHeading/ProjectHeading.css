@@ -1,0 +1,9 @@
+.heading-underline:after {
+  border-bottom: 1px solid #8f00ff;
+  display: block;
+  margin: 0 auto;
+  width: 13%;
+  content: "";
+  padding: 0.4rem 0;
+}
+/*# sourceMappingURL=ProjectHeading.css.map */
