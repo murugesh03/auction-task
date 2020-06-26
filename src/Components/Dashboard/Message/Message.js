@@ -24,13 +24,13 @@ const Message = () => {
   return (
     <Row>
       <Col md={2}>
-        <Card>
+        <Card className="message-card">
           <ChatList />
         </Card>
       </Col>
       <Col md={10}>
-        <Card>
-          <div className="px-3 message">
+        <Card className="message-card">
+          <div className="px-3 pt-3 message">
             {message.map((m, i) => (
               <div
                 className={

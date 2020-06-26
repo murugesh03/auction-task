@@ -23,13 +23,24 @@ export const dataMessage = [
     time: "12:02AM",
   },
   {
-    message: " Lorem Ipsum has been the industry's standard dummy ",
+    message: "Lorem Ipsum has been the industry's standard dummy ",
     type: "received",
     time: "12:30AM",
   },
   {
     message: "Lorem Ipsum has been the industry's ",
     type: "sent",
+    time: "12:50AM",
+  },
+  {
+    message:
+      "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type ",
+    type: "received",
+    time: "1:50AM",
+  },
+  {
+    message: "Lorem Ipsum has been the industry's ",
+    type: "receievd",
     time: "12:50AM",
   },
 ];

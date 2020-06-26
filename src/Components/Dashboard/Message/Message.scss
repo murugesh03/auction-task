@@ -1,7 +1,9 @@
 @import "../../../utilites/variables.scss";
 .message {
-  margin-top: 1rem;
   overflow: auto;
+  &-card {
+    height: 540px;
+  }
   &-attachement,
   &-send {
     font-size: 24px;
@@ -12,6 +14,11 @@
   &-send {
     color: $receiverColor;
   }
+  &-button:hover {
+    background-color: $messageBox !important;
+    border-color: none !important;
+    outline: none;
+  }
   &-button,
   &-input {
     border: none;
@@ -20,17 +27,18 @@
   &-sender,
   &-receiver {
     padding: 1rem 2rem;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
   }
   &-sender {
     border: 1px solid $senderColor;
-    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
     background-color: $senderColor;
     color: $black;
   }
   &-receiver {
     border: 1px solid $receiverColor;
+    border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
     background-color: $receiverColor;
     color: $white;

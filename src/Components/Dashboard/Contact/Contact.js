@@ -6,7 +6,7 @@ import { FaTasks, FaUserClock } from "react-icons/fa";
 import "./Contact.scss";
 const Contact = () => {
   return (
-    <Card>
+    <Card className="message-card">
       <Card.Img
         variant="top"
         className="mr-auto ml-auto w-50 my-5"
