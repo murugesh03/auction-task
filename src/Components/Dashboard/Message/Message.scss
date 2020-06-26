@@ -1,0 +1,49 @@
+@import "../../../utilites/variables.scss";
+.message {
+  margin-top: 1rem;
+  overflow: auto;
+  &-attachement,
+  &-send {
+    font-size: 24px;
+  }
+  &-attachement {
+    color: $black;
+  }
+  &-send {
+    color: $receiverColor;
+  }
+  &-button,
+  &-input {
+    border: none;
+    background-color: $messageBox;
+  }
+  &-sender,
+  &-receiver {
+    padding: 1rem 2rem;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  &-sender {
+    border: 1px solid $senderColor;
+    border-top-right-radius: 25px;
+    background-color: $senderColor;
+    color: $black;
+  }
+  &-receiver {
+    border: 1px solid $receiverColor;
+    border-top-left-radius: 25px;
+    background-color: $receiverColor;
+    color: $white;
+  }
+  &-right,
+  &-left {
+    display: flex;
+  }
+  &-right {
+    flex-direction: row-reverse;
+  }
+  &-time {
+    margin: 1rem 0;
+    padding: 0 1rem;
+  }
+}

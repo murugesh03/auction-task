@@ -1,0 +1,16 @@
+.chatlist {
+  &-search {
+    background-color: black;
+    &-icon {
+      font-size: 25px;
+      color: white;
+    }
+  }
+  & ul {
+    & li {
+      list-style: none;
+      text-align: center;
+      padding: 0.5rem 0;
+    }
+  }
+}

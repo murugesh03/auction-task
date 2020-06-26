@@ -1,0 +1,17 @@
+@import "../../../utilites/variables.scss";
+
+.contact {
+  &-icon {
+    font-size: 25px;
+    &-color {
+      color: $iconColor;
+    }
+  }
+  &-button,
+  &-button:hover {
+    background-color: transparent;
+    color: $orange;
+    border: 1px solid $orange;
+    margin: 0 auto;
+  }
+}
