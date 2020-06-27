@@ -15,32 +15,43 @@ export const dataMessage = [
   {
     message: "hi",
     type: "received",
-    time: "12:00AM",
+    time: "12:00 AM",
   },
   {
     message: "hey",
     type: "sent",
-    time: "12:02AM",
+    time: "12:02 AM",
   },
   {
     message: "Lorem Ipsum has been the industry's standard dummy ",
     type: "received",
-    time: "12:30AM",
+    time: "12:30 AM",
   },
   {
-    message: "Lorem Ipsum has been the industry's ",
+    message: "Lorem Ipsum has been the industry ",
     type: "sent",
-    time: "12:50AM",
+    time: "12:50 AM",
+  },
+  {
+    message: "Lorem Ipsum has been the industry in california",
+    type: "received",
+    time: "1:50 AM",
+  },
+  {
+    message: "Lorem Ipsum  ",
+    type: "receievd",
+    time: "12:50 AM",
   },
   {
     message:
-      "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type ",
+      "Lorem Ipsum the industry's standard  has been the industry's standard dummy ",
     type: "received",
-    time: "1:50AM",
+    time: "12:30 AM",
   },
   {
-    message: "Lorem Ipsum has been the industry's ",
-    type: "receievd",
-    time: "12:50AM",
+    message:
+      "Lorem Ipsum has been the industry's standard the industry's standard    ",
+    type: "received",
+    time: "12:30 AM",
   },
 ];

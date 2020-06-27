@@ -8,18 +8,26 @@ import {
   Button,
 } from "react-bootstrap";
 import { IoIosAttach, IoMdSend } from "react-icons/io";
+import uuid from "react-uuid";
+import moment from "moment";
 import ChatList from "./ChatList/ChatList";
 import { dataMessage } from "../../../Data";
 import "./Message.scss";
 const Message = () => {
   const [message, setMessage] = useState(dataMessage);
+  const [inputMessage, setInputMessage] = useState("");
 
-  const addMessage = (data, type, time) => {
-    let messageCopy = message;
-    messageCopy.push({ message, type, time });
+  const submitMessage = (event) => {
+    let messageCopy = [...message];
+    messageCopy.push({
+      message: inputMessage,
+      type: "sender",
+      time: moment().format("LT"),
+      id: uuid(),
+    });
     setMessage(messageCopy);
+    setInputMessage("");
   };
-
   console.log(message);
   return (
     <Row>
@@ -52,20 +60,28 @@ const Message = () => {
             ))}
           </div>
           <div>
-            <InputGroup>
+            <InputGroup className="message-input">
               <InputGroup.Prepend>
                 <Button className="message-button" variant="outline-secondary">
                   <IoIosAttach className="message-attachement" />
                 </Button>
               </InputGroup.Prepend>
               <FormControl
-                className="message-input"
+                className="message-input-box"
                 placeholder="Type a message..."
                 aria-label="Recipient's username"
                 aria-describedby="basic-addon2"
+                value={inputMessage}
+                type="sender"
+                name="message"
+                onChange={(e) => setInputMessage(e.target.value)}
               />
               <InputGroup.Append>
-                <Button className="message-button" variant="outline-secondary">
+                <Button
+                  onClick={(e) => submitMessage(e)}
+                  className="message-button"
+                  variant="outline-secondary"
+                >
                   <IoMdSend className="message-send" />
                 </Button>
               </InputGroup.Append>

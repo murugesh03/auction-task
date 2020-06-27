@@ -1,0 +1,21 @@
+@import "../../../utilites/variables.scss";
+
+.dashboard-footer {
+  margin-top: 0.5rem;
+  &-list {
+    &-one li,
+    &-two li,
+    &-three li {
+      list-style: none;
+    }
+    &-icon li {
+      border-radius: 50px;
+      background-color: $darkGrey;
+    }
+    &-icons {
+      margin: 0.5rem;
+      font-size: 25px;
+      color: $white;
+    }
+  }
+}

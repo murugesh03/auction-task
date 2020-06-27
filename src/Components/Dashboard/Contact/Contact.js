@@ -9,14 +9,14 @@ const Contact = () => {
     <Card className="message-card">
       <Card.Img
         variant="top"
-        className="mr-auto ml-auto w-50 my-5"
+        className="mr-auto ml-auto w-50 my-4"
         src={ContactImage}
       />
-      <Card.Body>
+      <Card.Body className="contact-body">
         <Card.Title className="text-capitalize text-center">
           stephen griffin
         </Card.Title>
-        <Card.Text>
+        <Card.Text className="contact-text">
           <span>
             <FaUserClock className="mx-2 contact-icon contact-icon-color " />
           </span>
@@ -28,7 +28,7 @@ const Contact = () => {
             <span>2019</span>
           </span>
         </Card.Text>
-        <Card.Text>
+        <Card.Text className="contact-text">
           <span>
             <MdTimer className="mx-2 contact-icon contact-icon-color " />
           </span>
@@ -37,7 +37,7 @@ const Contact = () => {
           </span>
           <span> 08 hrs</span>
         </Card.Text>
-        <Card.Text>
+        <Card.Text className="contact-text">
           <span>
             <MdLocationOn className="mx-2 contact-icon contact-icon-color" />
           </span>
@@ -45,15 +45,15 @@ const Contact = () => {
           <span className="text-capitalize ">california,</span>
           <span className="text-uppercase">us</span>
         </Card.Text>
-        <Card.Text>
+        <Card.Text className="contact-text">
           <span>
             <FaTasks className="mx-2 contact-icon contact-icon-color" />
           </span>
           <span className="text-capitalize contact-icon-color">jobs hired</span>
           <span className="px-2">25</span>
         </Card.Text>
-        <Card.Text className="text-center">
-          <Button className="text-uppercase contact-button">
+        <Card.Text className="text-center ">
+          <Button className="text-uppercase contact-button contact-button-text">
             view react job postings
           </Button>
         </Card.Text>

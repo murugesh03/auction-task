@@ -14,10 +14,10 @@ const TabsView = () => {
           className="tabs"
         >
           <Tab eventKey="home" title="TELE-COMMUNICATION"></Tab>
-          <Tab eventKey="todo" title="TO-DO">
+          <Tab className ="tabs-active" eventKey="todo" title="TO-DO">
             <Todo />
           </Tab>
-          <Tab eventKey="mortgage notes" title="MORTGAGE NOTES"></Tab>
+          <Tab  id="tabs-active"eventKey="mortgage notes" title="MORTGAGE NOTES"></Tab>
           <Tab eventKey="files" title="FILES"></Tab>
           <Tab eventKey="due dilligence" title="DUE DILLIGENCE"></Tab>
           <Tab eventKey="metadata" title="METADATA"></Tab>

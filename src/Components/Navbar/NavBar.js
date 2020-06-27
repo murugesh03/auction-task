@@ -18,15 +18,15 @@ const NavBar = () => {
           />
         </Navbar.Brand>
         <Nav className="ml-auto navBar-menu">
-          <Nav.Link className="nav-links">About Us</Nav.Link>
-          <Nav.Link className="nav-links">Become a Buyer</Nav.Link>
-          <Nav.Link className="nav-links">Become a Seller</Nav.Link>
-          <Nav.Link className="nav-links">Transactions</Nav.Link>
+          <Nav.Link className="nav-link">About Us</Nav.Link>
+          <Nav.Link className="nav-link">Become a Buyer</Nav.Link>
+          <Nav.Link className="nav-link">Become a Seller</Nav.Link>
+          <Nav.Link className="nav-link">Transactions</Nav.Link>
           <Nav.Link href="/dashboard" className="nav-links">
             Dashboard
           </Nav.Link>
-          <Nav.Link className="nav-links">Hi, Daniel</Nav.Link>
-          <Nav.Link className="nav-links">
+          <Nav.Link className="nav-link">Hi, Daniel</Nav.Link>
+          <Nav.Link className="nav-link">
             <img src={LoginUser} alt="login user" width="30" height="30" />
           </Nav.Link>
         </Nav>

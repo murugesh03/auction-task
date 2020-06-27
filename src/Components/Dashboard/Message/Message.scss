@@ -1,8 +1,11 @@
 @import "../../../utilites/variables.scss";
 .message {
-  overflow: auto;
+  overflow-y: scroll;
   &-card {
+    max-height: 540px;
     height: 540px;
+    background-color: white;
+    border-radius: 0.25rem;
   }
   &-attachement,
   &-send {
@@ -20,14 +23,15 @@
     outline: none;
   }
   &-button,
-  &-input {
+  &-input-box {
     border: none;
     background-color: $messageBox;
   }
   &-sender,
   &-receiver {
-    padding: 1rem 2rem;
+    padding: 1rem;
     border-top-right-radius: 25px;
+    font-size: 15px;
   }
   &-sender {
     border: 1px solid $senderColor;
@@ -52,6 +56,7 @@
   }
   &-time {
     margin: 1rem 0;
-    padding: 0 1rem;
+    padding: 0.5rem;
+    font-size: 12px;
   }
 }
