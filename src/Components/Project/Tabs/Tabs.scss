@@ -9,7 +9,7 @@ nav {
 .tabs {
   background-color: #efefef;
 }
-.nav-link.active {
+.tabs a.active {
   border-top: 3px solid $lightGreen !important;
   color: $lightGreen !important;
   background-color: transparent !important;
@@ -21,7 +21,7 @@ nav {
 .nav-link {
   border: none !important;
 }
-a {
+.tabs a {
   color: black !important;
-  padding: 0.7rem 2rem !important;
+  padding: 0.7rem 1.5rem !important;
 }
