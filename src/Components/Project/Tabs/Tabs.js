@@ -17,11 +17,7 @@ const TabsView = () => {
           <Tab eventKey="todo" title="TO-DO">
             <Todo />
           </Tab>
-          <Tab
-            id="tabs-active"
-            eventKey="mortgage notes"
-            title="MORTGAGE NOTES"
-          ></Tab>
+          <Tab eventKey="mortgage notes" title="MORTGAGE NOTES"></Tab>
           <Tab eventKey="files" title="FILES"></Tab>
           <Tab eventKey="due dilligence" title="DUE DILLIGENCE"></Tab>
           <Tab eventKey="metadata" title="METADATA"></Tab>

@@ -2,7 +2,7 @@
 
 .hr-line {
   border-top: 2px dashed grey;
-  width: 50%;
+  width: 45%;
   margin: 2rem 0;
 }
 
@@ -10,6 +10,20 @@
   justify-content: space-around;
   &-tab {
     display: flex;
+    justify-content: center;
+    &-box {
+      &-icon {
+        border: 1px solid black;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        padding: 15px;
+      }
+      &-name {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
   }
   &-list {
     justify-content: space-around;
@@ -22,15 +36,6 @@
           color: $violet;
         }
       }
-    }
-  }
-  &-box {
-    &-icon {
-      border: 1px solid black;
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      padding: 15px;
     }
   }
 }

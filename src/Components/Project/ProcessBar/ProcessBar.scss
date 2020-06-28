@@ -1,12 +1,34 @@
-.processbar-dash {
-  border-top: 1px dashed red;
-}
 .seller {
   & img {
-    width: 10% !important;
+    width: 55px !important;
   }
 }
 .seller,
 .buyer {
   text-align: center;
+}
+.processbar {
+  flex-direction: column;
+  margin: 2rem 0;
+  &-img,
+  &-text {
+    display: flex;
+    &-one {
+      margin: 0 2rem;
+    }
+    &-two {
+      margin: 0 1rem;
+    }
+  }
+  &-img {
+    justify-content: center;
+  }
+  &-text {
+    justify-content: space-around;
+  }
+  &-dash {
+    border-top: 2px dashed grey;
+    width: 45%;
+    margin: 2rem 0;
+  }
 }

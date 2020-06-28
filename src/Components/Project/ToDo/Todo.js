@@ -7,22 +7,26 @@ import TodoList from "./../TodoList/TodoList";
 const Todo = () => {
   return (
     <Container>
-      <Row className="todo-list">
-        <Col className="pr-0 todo-tab " md={8}>
-          <div className="todo-box">
+      <Row className="todo-list my-5">
+        <Col className="pr-0 todo-tab " md={12}>
+          <div className="todo-tab-box">
             <span>
-              <GiConversation className=" todo-box-icon" />
-              <p className="text-uppercase ">negotiation phase</p>
+              <GiConversation className=" todo-tab-box-icon" />
             </span>
           </div>
-
           <hr className="hr-line" />
-
-          <div className="todo-box">
+          <div className="todo-tab-box">
             <span>
-              <MdLockOutline className="  todo-box-icon" />
-              <p className="text-uppercase ">closing phase</p>
+              <MdLockOutline className="  todo-tab-box-icon" />
             </span>
+          </div>
+        </Col>
+        <Col className="todo-tab-box-name" md={12}>
+          <div>
+            <p className="text-uppercase my-2 ">negotiation phase</p>
+          </div>
+          <div>
+            <p className="text-uppercase my-2 ">closing phase</p>
           </div>
         </Col>
       </Row>

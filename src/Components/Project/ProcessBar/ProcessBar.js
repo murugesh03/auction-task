@@ -5,20 +5,23 @@ import Buyer from "../../../assets/iler-stoe-iEAvKBfqD8c-unsplash.png";
 import "./ProcessBar.scss";
 const ProcessBar = () => {
   return (
-    <Row>
-      <Col>
+    <Row className="processbar">
+      <Col className="processbar-img">
         <div className="seller">
           <img src={Seller} alt="seller" />
-          <p className="text-capitalize mb-0 text-center">jack sparrow</p>
-          <p className="text-uppercase text-center">seller</p>
+        </div>
+        <hr className="processbar-dash" />
+        <div className="buyer">
+          <img src={Buyer} alt="buyer" />
         </div>
       </Col>
 
-      <hr className="processbar-dash" />
-
-      <Col>
-        <div className="buyer">
-          <img src={Buyer} alt="buyer" />
+      <Col className="processbar-text">
+        <div className="processbar-text-one">
+          <p className="text-capitalize mb-0 text-center">jack sparrow</p>
+          <p className="text-uppercase text-center">seller</p>
+        </div>
+        <div className="processbar-text-two">
           <p className="text-capitalize mb-0 text-center">daniel s</p>
           <p className="text-uppercase text-center">
             buyer <span>(broker)</span>
