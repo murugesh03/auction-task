@@ -30,7 +30,7 @@ const Todo = () => {
           </div>
         </Col>
       </Row>
-      <Row className="todo-list">
+      <Row className="todo-list my-3">
         <TodoList />
       </Row>
     </Container>
