@@ -1,7 +1,7 @@
 @import "../../../utilites/variables.scss";
 
 .hr-line {
-  border-top: 2px dashed grey;
+  border-top: 2px dashed $lightGrey;
   width: 45%;
   margin: 2rem 0;
 }
@@ -13,15 +13,28 @@
     justify-content: center;
     &-box {
       &-icon {
-        border: 1px solid black;
         width: 70px;
         height: 70px;
         border-radius: 50%;
         padding: 15px;
+        &-one {
+          border: 1px solid $violet;
+        }
+        &-two {
+          border: 1px solid $lightGrey;
+        }
       }
       &-name {
         display: flex;
         justify-content: space-around;
+      }
+    }
+    &-color {
+      &-one {
+        color: $violet;
+      }
+      &-two {
+        color: $lightGrey;
       }
     }
   }
@@ -36,6 +49,9 @@
           color: $violet;
         }
       }
+    }
+    &-grey {
+      color: $lightGrey;
     }
   }
 }

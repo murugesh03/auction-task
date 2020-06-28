@@ -1,3 +1,5 @@
+@import "../../../utilites/variables.scss";
+
 .seller {
   & img {
     width: 55px !important;
@@ -6,6 +8,12 @@
 .seller,
 .buyer {
   text-align: center;
+  &-name {
+    color: $violet;
+    &-position {
+      color: $lightGrey;
+    }
+  }
 }
 .processbar {
   flex-direction: column;
@@ -22,6 +30,12 @@
   }
   &-img {
     justify-content: center;
+    &-icon {
+      position: absolute;
+      top: 5px;
+      font-size: 30px;
+      color: $violet;
+    }
   }
   &-text {
     justify-content: space-around;

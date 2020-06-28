@@ -37,19 +37,19 @@ const TodoList = () => {
           </p>
         </div>
         <div>
-          <p className="text-capitalize">
+          <p className="text-capitalize todo-list-grey">
             <IoMdRadioButtonOn className="mr-2" />
             buyer provied vesting information
           </p>
         </div>
         <div>
-          <p className="text-capitalize">
+          <p className="text-capitalize todo-list-grey">
             <IoMdRadioButtonOn className="mr-2" />
             seller executed the purchase sale agreement
           </p>
         </div>
         <div>
-          <p className="text-capitalize">
+          <p className="text-capitalize  todo-list-grey">
             <IoMdRadioButtonOn className="mr-2" />
             buyer executed the purchase sale agreement
           </p>
