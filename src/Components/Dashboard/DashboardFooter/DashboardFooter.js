@@ -1,6 +1,6 @@
 import React from "react";
 import "./DashboardFooter.scss";
-import { FaFacebookSquare, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaTwitter, FaInstagram } from "react-icons/fa";
 import { AiFillFacebook } from "react-icons/ai";
 const DashboardFooter = () => {
   return (

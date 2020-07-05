@@ -5,7 +5,7 @@ import {
   Card,
   InputGroup,
   FormControl,
-  Button,
+  Button,Formcd
 } from "react-bootstrap";
 import { IoIosAttach, IoMdSend } from "react-icons/io";
 import uuid from "react-uuid";
@@ -59,7 +59,7 @@ const Message = () => {
               </div>
             ))}
           </div>
-          <div>
+          <Form>
             <InputGroup className="message-input">
               <InputGroup.Prepend>
                 <Button className="message-button" variant="outline-secondary">
@@ -86,7 +86,7 @@ const Message = () => {
                 </Button>
               </InputGroup.Append>
             </InputGroup>
-          </div>
+          </Form>
         </Card>
       </Col>
     </Row>

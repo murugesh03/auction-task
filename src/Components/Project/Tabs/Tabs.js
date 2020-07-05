@@ -7,21 +7,23 @@ const TabsView = () => {
   return (
     <Row>
       <Col>
-        <Tabs
-          id="controlled-tab-example"
-          activeKey={key}
-          onSelect={(k) => setKey(k)}
-          className="tabs"
-        >
-          <Tab eventKey="home" title="TELE-COMMUNICATION"></Tab>
-          <Tab eventKey="todo" title="TO-DO">
-            <Todo />
-          </Tab>
-          <Tab eventKey="mortgage notes" title="MORTGAGE NOTES"></Tab>
-          <Tab eventKey="files" title="FILES"></Tab>
-          <Tab eventKey="due dilligence" title="DUE DILLIGENCE"></Tab>
-          <Tab eventKey="metadata" title="METADATA"></Tab>
-        </Tabs>
+        <div id="mycustom">
+          <Tabs
+            id="controlled-tab-example"
+            activeKey={key}
+            onSelect={(k) => setKey(k)}
+            className="tabs"
+          >
+            <Tab eventKey="home" title="TELE-COMMUNICATION"></Tab>
+            <Tab eventKey="todo" title="TO-DO">
+              <Todo />
+            </Tab>
+            <Tab eventKey="mortgage notes" title="MORTGAGE NOTES"></Tab>
+            <Tab eventKey="files" title="FILES"></Tab>
+            <Tab eventKey="due dilligence" title="DUE DILLIGENCE"></Tab>
+            <Tab eventKey="metadata" title="METADATA"></Tab>
+          </Tabs>
+        </div>
       </Col>
     </Row>
   );
